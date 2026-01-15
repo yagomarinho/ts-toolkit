@@ -5,7 +5,5 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-export * from './merge'
-export * from './metadata'
-export * from './primitive'
-export * from './valid.object'
+export type Primitive = number | string | boolean | undefined | null
+export type JSPrimitive = Primitive | symbol | bigint
