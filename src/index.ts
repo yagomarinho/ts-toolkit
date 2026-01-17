@@ -7,5 +7,8 @@
 
 export * from './merge'
 export * from './metadata'
+export * from './operation.result'
 export * from './primitive'
+export * from './reader'
+export * from './reader.task'
 export * from './valid.object'
